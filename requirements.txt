@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+pydantic
+chromadb
+cachetools
+tenacity
+slowapi
+python-json-logger
+prometheus-fastapi-instrumentator
