@@ -5,10 +5,10 @@ from orchestrator.agent_controller import AgentController
 
 app = FastAPI()
 
-# ✅ CORS FIX — allow frontend to call API
+# ✅ Allow React frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # for demo; restrict in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
